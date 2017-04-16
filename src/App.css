@@ -1,0 +1,43 @@
+
+form#App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form#App label {
+  margin: 0;
+  margin-top: 4px;
+  color: #00695C;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+form#App textarea, form#App input, form#App select {
+
+  display: block;
+  width: 100%;
+  padding: 0; /* reset, see individuals */
+
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 12px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9E9E9E; /* material grey 500 */
+
+  font-size: 14px;
+
+}
+form#App textarea {
+  padding: 8px;
+}
+form#App input {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+form#App select {
+  /* what even */
+}
+
